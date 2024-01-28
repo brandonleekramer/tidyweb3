@@ -1,5 +1,5 @@
 
-# tidyweb3: A tidy package for accessing blockchain and web3 data in R <br><img src="man/figures/tidyweb3.png" align="right" height="210" />
+# tidyweb3 <br><img src="man/figures/tidyweb3.png" align="right" height="210" />
 
 <!-- badges: start -->
 
@@ -8,6 +8,10 @@
 coverage](https://codecov.io/gh/tidyverse/ggplot2/branch/main/graph/badge.svg)](https://app.codecov.io/gh/brandonleekramer/tidyweb3?branch=main)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/ggplot2)](https://cran.r-project.org/package=ggplot2)
 <!-- badges: end -->
+
+## Overview
+
+tidyweb3 is package for accessing blockchain and web3 data in R
 
 **Authors:** [Brandon Kramer](https://www.brandonleekramer.com/)<br/>
 **License:** [MIT](https://opensource.org/licenses/MIT)<br/>
