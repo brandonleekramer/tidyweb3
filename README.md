@@ -13,7 +13,7 @@ coverage](https://codecov.io/gh/tidyverse/ggplot2/branch/main/graph/badge.svg)](
 
 tidyweb3 is package for accessing blockchain and web3 data in R
 
-**Authors:** [Brandon Kramer](https://www.brandonleekramer.com/)<br/>
+**Authors:** [Brandon Kramer](https://www.brandonleekramer.com/) \|
 **License:** [MIT](https://opensource.org/licenses/MIT)<br/>
 
 ## Installation
@@ -32,22 +32,12 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(tidyweb3)
-## basic example code
+
+vitalik_eth = "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+my_prc_provider = "https://eth-mainnet.rpc.grove.city/v1/"
+my_api_key = your_api_key
+
+vitaliks_balance = eth_get_balance(vitalik_eth, my_prc_provider, my_api_key)
+vitaliks_balance
+#> [1] 82.03383
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this.
