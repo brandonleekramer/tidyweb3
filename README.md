@@ -1,43 +1,9 @@
 
 # tidyweb3 <br><img src="man/figures/tidyweb3.png" align="right" height="210" />
 
-<!-- badges: start -->
-
-[![R-CMD-check](https://github.com/tidyverse/ggplot2/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tidyverse/ggplot2/actions/workflows/R-CMD-check.yaml)
-[![Codecov test
-coverage](https://codecov.io/gh/tidyverse/ggplot2/branch/main/graph/badge.svg)](https://app.codecov.io/gh/brandonleekramer/tidyweb3?branch=main)
-[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/ggplot2)](https://cran.r-project.org/package=ggplot2)
-<!-- badges: end -->
-
 ## Overview
 
-tidyweb3 is package for accessing blockchain and web3 data in R
+tidyweb3 WAS a package for accessing blockchain and web3 data in R
 
-**Authors:** [Brandon Kramer](https://www.brandonleekramer.com/) \|
-**License:** [MIT](https://opensource.org/licenses/MIT)<br/>
+## This project has moved to [onchainR](https://github.com/brandonleekramer/onchainR)
 
-## Installation
-
-You can install the development version of tidyweb3 from
-[GitHub](https://github.com/) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("brandonleekramer/tidyweb3")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(tidyweb3)
-
-vitalik_eth = "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
-my_prc_provider = "https://eth-mainnet.rpc.grove.city/v1/"
-my_api_key = your_api_key
-
-vitaliks_balance = eth_get_balance(vitalik_eth, my_prc_provider, my_api_key)
-vitaliks_balance
-#> [1] 82.03383
-```
